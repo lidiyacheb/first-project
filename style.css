@@ -1,3 +1,4 @@
+
     .logo {
         padding-inline-start: 5%;
         padding-top: 10px;
@@ -129,3 +130,364 @@ h2 {
   margin-top: 30px;
 
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    margin: inherit;
+    padding: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.6;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color: #f1f1f1;
+    color: #fff;
+}
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+    height: auto;
+}
+
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.group {
+    width: 100%;
+    height: auto;
+}
+
+.group input {
+    width: 460px;
+    height: 45px;
+    opacity: 0.5;
+    color: #413d4b;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    padding-left: 1rem;
+    margin-bottom: 1.6rem;
+}
+
+.bth {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #ffffff;
+}
+
+.logos {
+    margin-bottom: 5rem;
+}
+
+.logos-img {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+}
+
+.logos-text {
+    margin-left: 10rem;
+}
+
+.img-info {
+    margin-bottom: 5rem;
+}
+
+.form-message {
+    opacity: 0.5;
+    color: #413d4b;
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 1.9rem 0 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.bold {
+    color: #413d4b;
+    font-family: 'Playfair Display';
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    padding-bottom: 2rem;
+}
+
+.footer {
+    background-image: url('./images/footer-layers.png');
+    height: 400px;
+    background-size: cover;
+    color: #fff;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.footer-main > div {
+    flex: 1;
+    margin: 8rem 6rem 0 0;
+    font-size: 1.4rem;
+}
+
+.footer-text {
+    text-align: justify;
+}
+
+.headline {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    padding-bottom: 3rem;
+}
+
+.footer-icon {
+    margin-right: 0.6rem;
+    vertical-align: top;
+}
+
+.footer-subscription {
+    width: 275px;
+}
+
+.footer-input {
+    width: 211px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    opacity: 0.5;
+}
+
+.footer-btn {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    opacity: 0.5;
+    padding: 1.1rem;
+}
+
+.footer-btn img {
+    vertical-align: middle;
+}
+
+.footer-social {
+  margin-top: 1.7rem;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-bottom > div {
+    flex: 1;
+    display: flex;
+}
+
+.footer-left {
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 26px;
+text-transform: uppercase;
+letter-spacing: 0.35px;
+margin-top: 3.5rem;
+}
+
+.footer-left p {
+    padding-right: 3.5rem;
+    }
+.footer-right {
+    margin: 3.3rem 6rem 0 0;
+    font-size: 1.4rem;;
+}
+/***** Story section ***/
+.story-section {
+    background-image: url(./images/bgk-middle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.play-button {
+    transition: 1s;
+}
+
+.play-button:hover {
+   background-color: #0098ab;
+   border-radius: 10rem;
+}
+
+.story-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    letter-spacing: .5px;
+}
+
+/*** Expertise section ***/
+.expertise-section {
+    padding: 5rem 0;
+    color: #000;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-header {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section-paragraph {
+    font-size: 1.5rem;
+}
+
+.underline {
+    width: 8rem;
+    height: 2px;
+    background-color: #0098ab;
+    margin: 1.3rem auto 3rem auto;
+}
+
+.expert-specialization {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 2rem;
+}
+
+.product-description {
+    padding: 3rem;
+    flex-basis: 30%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.product-description>:not(:last-child) {
+    margin-bottom: .5rem;
+}
+
+.product-heading {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.product-text {
+    font-size: 1.5rem; 
+    text-align: center;
+}
+
+/* Team Section */
+.team-section {
+    background-image: url(./images/bgk-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.team-description {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 0 4rem;
+    padding: 0 3rem;
+}
+
+.member-information {
+    flex-basis: 25%;
+    padding: 1rem;
+    min-width: 250px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.member-information img {
+    width: 100%;
+    transition: all .3s;
+}
+
+.member-information img:hover {
+    filter: opacity(80%);
+}
+
+.member-name {
+    font-size: 1.8rem;
+}
+
+.member-description {
+    font-size: 1.4rem;
+}
+
+.member-information,
+.member-description {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.text-description {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.hiring-btn {
+   text-decoration: none;
+   border: 1px solid #0098ab;
+   padding: 1rem 2rem;
+   color: #0098ab;
+   font-size: 1.5rem;
+   text-transform: uppercase;
+   background: transparent;
+   margin-top: 1rem;
+   display: inline-block;
+}
+
+/* Media Queries */
+@media only screen and (max-width:600px) {
+    .team-description {
+        text-align: center;
+    }
+
+    .member-information {
+        flex-basis: 100%;
+    }
+
+} 
+
